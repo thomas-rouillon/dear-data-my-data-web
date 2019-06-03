@@ -26,7 +26,7 @@ Intro que l'on peut pas skip // "Je te connais"
     <!--
     dans l'idée enlever la video pour du pure animation css
     -->
-
+<!--
 			<div class="introtext">
 					<div id="intro-texte1" class="slide current" data-duration="2">
 						<p>Je te connais</p>
@@ -43,7 +43,7 @@ Intro que l'on peut pas skip // "Je te connais"
           <button id="scrollbtn">
             scroooool
           </button>
-			</div>
+			</div> -->
 
 
 
@@ -158,7 +158,7 @@ Tout au long de tes navigations -->
 
 			<div class="titre_partie_1" data-4800="opacity:0;top:15vw;" data-5100="opacity:1;top:15vw;" data-5700="opacity:1;top:15vw;" data-5800="opacity:0;top:15vw;">
 				<h1 id="tes_nav_titre">Tout au long de tes navigations</h1>
-				<p id="tes_nav_txt">
+				<p id="text_v2">
 					Lorsque tu navigues sur le net sait-tu que tu ne visites pas uniquement les sites sur lesquels tu cliques ? De nombreux sites, que l’on appelle traqueurs collectent tes données personnelles sans même que tu t’en rendes compte. Je te conseille de faire l’expérience, avec l’extension Lightbeam de Firefox ou cookieviz de la CNIL (Commission Nationale de l'Informatique et des Libertés), et de voir toi même par qui tu es traqué.
 					</p>
 
@@ -176,7 +176,7 @@ Tout au long de tes navigations -->
 
 			<div class="titre_partie_1" data-5900="opacity:0;top:15vw;" data-6000="opacity:1;top:15vw;" data-6800="opacity:1;top:15vw;" data-7000="opacity:0;top:15vw;">
 				<h1 id="tu_donnes_droit_titre">Tu nous en donnes <br> même le droit</h1>
-				<p id="tu_donnes_droit_texte">
+				<p id="text_v2">
 					Invent, comnitatis mollesequia cus consequide sedipsae labore solore sequi qui cuptatem. Et aut optia volorat.
 					Les pro dust quiberum nullorecus.
 					Et aut optia volorat.

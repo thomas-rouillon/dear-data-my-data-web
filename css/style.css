@@ -130,7 +130,7 @@ ul, ol { list-style: none; }
                     position: absolute;
                     z-index: 20;
                     color: black;
-                    font-size: 2.5em;
+                    font-size: 1.5em;
                     margin-left: 20vw;
                     margin-right: 20vw;
                     display: flex;
@@ -173,10 +173,8 @@ tout au long de tes navigations */
                 padding-right: 5vw !important;
                 padding-bottom: 10vh;}
 
-#tes_nav_txt {margin-left: 10vw;
-              font-size: 2em;
-              margin-right: 50vw;
-              font-size: 2.5em;}
+#text_v2 {margin-left: 10vw;
+              margin-right: 50vw;}
 
 
 #img_tes_nav_0 {position: absolute;
@@ -203,10 +201,7 @@ tu nous en donnes même le droit */
                         padding-right: 5vw !important;
                         padding-bottom: 10vh;}
 
-#tu_donnes_droit_texte {margin-left: 10vw;
-              font-size: 2em;
-              margin-right: 50vw;
-              font-size: 2.5em;}
+
 
               /*
 demande section */
