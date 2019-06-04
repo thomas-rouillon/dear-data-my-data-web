@@ -1,5 +1,11 @@
 * { box-sizing: border-box; }
 
+:root {--rouge: #e02222;
+       --noir: #333333;
+       --blanc: #ffffff;
+
+}
+
 html, body{ height: 100%; }
 
 body{
@@ -29,7 +35,7 @@ ul, ol { list-style: none; }
     position: absolute;
     top: 0; left: 0; bottom: 0; right: 0;
     z-index: 20;
-    color: white;
+    color: var(--blanc);
     font-size: 7em;
     line-height: .9em;
     /* padding: 2em calc(5vw); */
@@ -38,13 +44,13 @@ ul, ol { list-style: none; }
 /* A refaire plus proprement */
 /* #intro-texte1 {margin-top: -0.2em; z-index: 20;}
 #intro-texte2 {margin-top: -1.5em; z-index: 20;}
-#intro-texte3 {margin-top: -2em; z-index: 20 !important;}
-#intro-texte4 {margin-top: -1.2em; color: black; z-index: 1 !important; */
+#intro-texte3 {margin-top: -2em; z-index: 20 ;}
+#intro-texte4 {margin-top: -1.2em; color: var(--noir); z-index: 1 ; */
 
 
 .slide{
   text-align: center;
-  background: black;
+  background: var(--noir);
   position: absolute;
   top:0;
   left: 0;
@@ -72,7 +78,7 @@ ul, ol { list-style: none; }
     /* pointer-events: none; */
     position: absolute;
     top: 0; left: 0; bottom: 0; right: 0;
-    background: black;
+    background: var(--noir);
     opacity: 0;
     transition: opacity 250ms ease-out;
     display: flex;
@@ -88,7 +94,7 @@ ul, ol { list-style: none; }
   position: absolute;
   bottom: 20px;
   left: 50%;
-  background: white;
+  background: var(--blanc);
   width: 40px;
   height: 40px;
   border-radius: 20px;
@@ -116,7 +122,7 @@ ul, ol { list-style: none; }
 
   .titre_partie_1 h1 {font-family: 'VG5000';
                    z-index: 20;
-                   color: black;
+                   color: var(--noir);
                    font-size: 5em;
                    display: flex;
                    justify-content: center;
@@ -129,7 +135,7 @@ ul, ol { list-style: none; }
    .titre_partie_1 p {font-family: 'VG5000';
                     position: absolute;
                     z-index: 20;
-                    color: black;
+                    color: var(--noir);
                     font-size: 1.5em;
                     margin-left: 20vw;
                     margin-right: 20vw;
@@ -169,8 +175,8 @@ big brother section */
 tout au long de tes navigations */
 
 #tes_nav_titre  {margin-top: -20vh;
-                padding-left: 5vw !important;
-                padding-right: 5vw !important;
+                padding-left: 5vw ;
+                padding-right: 5vw ;
                 padding-bottom: 10vh;}
 
 #text_v2 {margin-left: 10vw;
@@ -178,7 +184,7 @@ tout au long de tes navigations */
 
 
 #img_tes_nav_0 {position: absolute;
-                box-shadow: 3px 3px black;
+                box-shadow: 3px 3px var(--noir);
                 z-index: 3}
 
 #img_tes_nav_1 {margin-top: 10vh;
@@ -197,8 +203,8 @@ tu nous en donnes même le droit */
 #tu_donnes_droit_titre {margin-top: -20vh;
                         width: 60vw;
                         margin-left: 1vw;
-                        padding-left: 5vw !important;
-                        padding-right: 5vw !important;
+                        padding-left: 5vw ;
+                        padding-right: 5vw ;
                         padding-bottom: 10vh;}
 
 
@@ -207,37 +213,50 @@ tu nous en donnes même le droit */
 demande section */
 
 
-#demande_box {height: 75vh !important;
-              width: 30vw !important;
-              background-color: black;
-              position: relative !important;
-              margin-top: -20vh;
-              margin-left: 60vw ;
+
+#demande_box {width: 35vw !important;
+              height: 75vh !important;
+              position: absolute;
+              margin-right: 20vw;
+              margin-left: 55vw;
+              margin-top: -15vh;
+              background-color: var(--noir);
               overflow-y: scroll;
               overflow-x: none;
-            }
+              z-index: 20 !important;
+
+}
+
+#titre_demande {font-family:'VG5000';
+                margin-top: 40px;
+                margin-bottom: 40px;
+                margin-left: 40px;
+                color: var(--blanc);
+        }
 
 
-#demande_box p {color: white;
-                font-size: .8em;
-                padding-left: 10px !important;
-                padding-right: 10px !important;
-                padding-top: 20px !important;
-                padding-bottom: 10vh !important;
-                position: relative !important;
-                margin-left: 1vw !important;
-                margin-right: 1vw !important;
-                z-index: 5;}
+#demande_box p {text-align: left;
+                color: var(--blanc);
+                margin-left: 40px;
+                margin-right: 40px;
+                font-size: 0.8em;
+                display: inline;
 
-#titre_demande {color: white !important ;
-                font-size: 1.5em !important;
-                padding-left: 0vw !important;
-                padding-right: 0vw !important;
-                justify-content: center !important;
-                align-items: center !important;
-                padding-bottom: 10px;
-                padding-top: 10px;
-                z-index: 10;
-                margin-top: 10px;
-                margin-left: 0;
-                }
+              }
+
+#demande_box p span {background-color: var(--blanc);
+                     color: var(--noir);}
+
+
+#demande_box a {background-color: var(--rouge);
+                    color: var(--blanc);
+                    text-decoration: none;
+                    z-index: 20 !important;}
+
+#demande_box a:hover {background-color: var(--blanc);
+                     color: var(--noir);}
+
+/*
+transition billet */
+
+#billet {width: 100% !important;}
