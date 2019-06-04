@@ -63,7 +63,7 @@ Première partie avec le premier texte -->
         <h1>Grâce aux trâces que tu laisses quand tu navigues sur le web</h1>
       </div>
 
-			<div class="titre_partie_1" data-1300="opacity:0;top:10vw;" data-1600="opacity:1;top:10vw;" data-1900="opacity:0;top:10vw;">
+			<div class="titre_partie_1" data-1300="opacity:0;top:20vw;" data-1600="opacity:1;top:20vw;" data-1900="opacity:0;top:20vw;">
         <p>
 					Sur Internet, quand tu achètes, joues, likes, partages, on n’arrête pas de récolter tes information	personnelles. Ces données comme ton âge, ton adresse, ton orientation sexuelle, etc, c’est un peu de toi,	de ta vie privée. Certaines de tes données sont dites sensibles, c’est-à-dire qu’elles sont plus intimes que d’autres: cela peut être par exemple ton orientation sexuelle et ta vie sexuelle en général, tes opinions politiques ou ton dossier médical. </p>
       </div>
@@ -190,6 +190,7 @@ données par le biais des cookies.
 
 					<div id="demande_box" >
 
+
 					        <h2 id="titre_demande">Règles de confidentialité Google</h2>
 
 					        <p>
@@ -216,11 +217,22 @@ données par le biais des cookies.
 						<h1>Pouquoi on <br> les récupère ?</h1>
 
 					</div>
-					<div class="titre_partie_1" data-7950="opacity:0;top:20vw;" data-7960="opacity:1;top:20vw;" data-8400="opacity:1;top:20vw;" >
+					<div class="titre_partie_1" data-7950="opacity:0;top:22vw;" data-7960="opacity:1;top:22vw;" data-8400="opacity:1;top:22vw;" >
 						<h1>Pour l'argent</h1>
 					</div>
 
 			</div>
+
+			<div class="titre_partie_1" data-8600="opacity:0;top:20vw;" data-8900="opacity:1;top:20vw;" data-9200="opacity:0;top:20vw;">
+				<p>
+				Les données, tes données, c’est un peu l’or noir d’aujourd’hui.
+				Pour certaines entreprises, elles ont beaucoup de valeur.
+				Pourquoi ? Parce qu’elles permettent de mieux te connaître
+				et de te proposer des produits et services que tu seras tenté
+				d’acheter. C’est la publicité 2.0.
+			  </p>
+			</div>
+
 
     </div>
 

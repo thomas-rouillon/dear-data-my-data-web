@@ -1,7 +1,7 @@
 * { box-sizing: border-box; }
 
 :root {--rouge: #e02222;
-       --noir: #333333;
+       --noir: #000000;
        --blanc: #ffffff;
 
 }
@@ -214,16 +214,18 @@ demande section */
 
 
 
-#demande_box {width: 35vw !important;
-              height: 75vh !important;
+#demande_box {width: 30vw !important;
+              height: 70vh !important;
               position: absolute;
               margin-right: 20vw;
               margin-left: 55vw;
-              margin-top: -15vh;
+              margin-top: -16vh;
               background-color: var(--noir);
               overflow-y: scroll;
               overflow-x: none;
               z-index: 20 !important;
+              border: 2px solid var(--blanc);
+              box-shadow: 10px 10px var(--noir);
 
 }
 
@@ -237,8 +239,10 @@ demande section */
 
 #demande_box p {text-align: left;
                 color: var(--blanc);
+                height: 50% !important;
                 margin-left: 40px;
                 margin-right: 40px;
+                margin-bottom: 20px;
                 font-size: 0.8em;
                 display: inline;
 
