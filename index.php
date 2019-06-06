@@ -12,6 +12,13 @@
 
 <body class="locked">
 
+
+<nav>
+	<button>///</button>
+	<ul>
+		<li><a href="#googlezalando">googlezalando</a></li>
+	</ul>
+</nav>
 <!--
 recupérer les infos de l'utilisateur pour lui faire un affichage personnalisé
 -->
@@ -182,7 +189,7 @@ Tout au long de tes navigations -->
 			</div>
 
 
-			<div class="titre_partie_1" data-5900="opacity:0;top:15vw;z-index:-1" data-6000="opacity:1;top:15vw;z-index:3000" data-6800="opacity:1;top:15vw;" data-7000="opacity:0;top:15vw; z-index:-1">
+			<div id="googlezalando" data-scrollpos="6000" class="titre_partie_1" data-5900="opacity:0;top:15vw;z-index:-1" data-6000="opacity:1;top:15vw;z-index:3000" data-6800="opacity:1;top:15vw;" data-7000="opacity:0;top:15vw; z-index:-1">
 				<h1 id="tu_donnes_droit_titre">Tu nous en donnes <br> même le droit</h1>
 				<p id="text_v2">
 					Si tu achètes une paire de chaussures sur Zalando, ce site connait
@@ -260,6 +267,13 @@ données par le biais des cookies.
 				}
 			}
 		});
+
+		$('nav').on('click', 'a', function(){
+			var target = $(this).attr('href'),
+				pos = $(target).attr('data-scrollpos');
+
+			$('html, body').animate({'scrollTop': pos}, 1500, 'swing')
+		})
 		</script>
 </body>
 </html>

@@ -30,6 +30,15 @@ ul, ol { list-style: none; }
 
 }
 
+
+nav {
+  position: fixed;
+  z-index: 5000;
+  top: 0;
+  left: 0;
+  background: red;
+}
+
 /* ------------------------------------------------ intro video */
 
 .introtext {
