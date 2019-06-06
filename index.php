@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<title>Dear Data, My Data</title>
-	<link rel="stylesheet" type="text/css" href="css/fonts.css">
+	<link rel="stylesheet" type="text/css" href="css/font.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
@@ -15,9 +15,9 @@
 <!--
 recupérer les infos de l'utilisateur pour lui faire un affichage personnalisé
 -->
-
+<pre style="display:none">
 <?php var_dump($_SERVER); ?>
-
+</pre>
 
 <!--
 Intro que l'on peut pas skip // "Je te connais"
@@ -59,19 +59,19 @@ FIN Intro // Retour à un scroll "classique"
 <!--
 Première partie avec le premier texte -->
 
-      <div class="titre_partie_1" data-600="opacity:0;top:15vw;" data-900="opacity:1;top:15vw;" data-1200="opacity:0;top:15vw;">
+<div class="titre_partie_1" data-600="opacity:0;top:15vw;" data-900="opacity:1;top:15vw;" data-1200="opacity:0;top:15vw;">
         <h1>Grâce aux trâces que tu laisses quand tu navigues sur le web</h1>
-      </div>
+</div>
 
-			<div class="titre_partie_1" data-1300="opacity:0;top:20vw;" data-1600="opacity:1;top:20vw;" data-1900="opacity:0;top:20vw;">
+<div class="titre_partie_1" data-1300="opacity:0;top:20vw;" data-1600="opacity:1;top:20vw;" data-1900="opacity:0;top:20vw;">
         <p>
 					Sur Internet, quand tu achètes, joues, likes, partages, on n’arrête pas de récolter tes information	personnelles. Ces données comme ton âge, ton adresse, ton orientation sexuelle, etc, c’est un peu de toi,	de ta vie privée. Certaines de tes données sont dites sensibles, c’est-à-dire qu’elles sont plus intimes que d’autres: cela peut être par exemple ton orientation sexuelle et ta vie sexuelle en général, tes opinions politiques ou ton dossier médical. </p>
-      </div>
+</div>
 
 <!--
 	Image sur les données personnelles // infographie -->
 
-			<div data-1920="opacity:0;top:15vw;" data-1930="opacity:1;top:15vw;" data-5700="opacity:1;top:15vw;" data-5800="opacity:0;top:15vw;" >
+<div data-1920="opacity:0;top:15vw;" data-1930="opacity:1;top:15vw;" data-5700="opacity:1;top:15vw;" data-5800="opacity:0;top:15vw;" >
 
 						<div class="image_dataperso" data-1950="display:none;top:0vw;" data-2000="display:flex;top:0vw;z-index:1"  data-2050="display:none;">
 			        <img src="img/donnee_perso_1.svg"></img>
@@ -165,16 +165,24 @@ Tout au long de tes navigations -->
 
 					<div class="tes_nav_img">
 
-					<img id="img_tes_nav_1" data-5200="width:0vh;margin-left:70vw;" data-5600="width:30vh;margin-left:65vw;" src="img/hacker1.svg" alt="">
-					<img id="img_tes_nav_2" data-5200="width:0vh;margin-left:85vw;" data-5600="width:30vh;margin-left:80vw;" src="img/hacker2.svg" alt="">
-					<img id="img_tes_nav_3" data-5200="width:0vh;margin-left:55vw;" data-5600="width:30vh;margin-left:50vw;" src="img/hacker3.svg" alt="">
-					<img id="img_tes_nav_0" data-5200="margin-left:0vw;width:40vh;margin-top:0vh;" data-5600="margin-left:-5vw;width:40vh;margin-top:-15vh;" src="img/google.svg" alt="">
+					<img id="img_tes_nav_1" 
+						data-5200="width:0%;bottom:0vh;left:50%" 
+						data-5600="width:30%;bottom:20vh;left:20%" src="img/hacker3.svg" alt="">
+					<img id="img_tes_nav_2" 
+						data-5200="width:0%;bottom:0vh;left:50%" 
+						data-5600="width:30%;bottom:20vh;left:50%" src="img/hacker1.svg" alt="">
+					<img id="img_tes_nav_3" 
+						data-5200="width:0%;left:50%;bottom:0vh" 
+						data-5600="width:30%;left:80%;bottom:20vh" src="img/hacker2.svg" alt="">
+					<img id="img_tes_nav_0" 
+						data-5200="width:40vh;" 
+						data-5600="width:50vh;" src="img/google.svg" alt="">
 
 				</div>
 			</div>
 
 
-			<div class="titre_partie_1" data-5900="opacity:0;top:15vw;" data-6000="opacity:1;top:15vw;" data-6800="opacity:1;top:15vw;" data-7000="opacity:0;top:15vw;">
+			<div class="titre_partie_1" style="z-index:3000" data-5900="opacity:0;top:15vw;" data-6000="opacity:1;top:15vw;" data-6800="opacity:1;top:15vw;" data-7000="opacity:0;top:15vw;">
 				<h1 id="tu_donnes_droit_titre">Tu nous en donnes <br> même le droit</h1>
 				<p id="text_v2">
 					Si tu achètes une paire de chaussures sur Zalando, ce site connait
