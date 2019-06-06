@@ -182,7 +182,7 @@ Tout au long de tes navigations -->
 			</div>
 
 
-			<div class="titre_partie_1" style="z-index:3000" data-5900="opacity:0;top:15vw;" data-6000="opacity:1;top:15vw;" data-6800="opacity:1;top:15vw;" data-7000="opacity:0;top:15vw;">
+			<div class="titre_partie_1" data-5900="opacity:0;top:15vw;z-index:-1" data-6000="opacity:1;top:15vw;z-index:3000" data-6800="opacity:1;top:15vw;" data-7000="opacity:0;top:15vw; z-index:-1">
 				<h1 id="tu_donnes_droit_titre">Tu nous en donnes <br> même le droit</h1>
 				<p id="text_v2">
 					Si tu achètes une paire de chaussures sur Zalando, ce site connait
@@ -220,12 +220,12 @@ données par le biais des cookies.
 
 					<img id="billet" src="img/billet.svg" alt="" data-7100="margin-top:-300vh;position:absolute;z-index:20;" data-8800="margin-top:300vh;position:absolute;z-index:20;">
 
-					<div class="titre_partie_1"  data-7200="opacity:1;top:20vw;" data-7800="opacity:0;top:20vw;" data-7810="opacity:0;top:20vw;">
+					<div class="fcku titre_partie_1"  data-7200="opacity:1;top:20vw;" data-7800="opacity:0;top:20vw;" data-7810="opacity:0;top:20vw;">
 
 						<h1>Pouquoi on <br> les récupère ?</h1>
 
 					</div>
-					<div class="titre_partie_1" data-7950="opacity:0;top:22vw;" data-7960="opacity:1;top:22vw;" data-8400="opacity:1;top:22vw;" >
+					<div class="fcku titre_partie_1" data-7950="opacity:0;top:22vw;" data-7960="opacity:1;top:22vw;" data-8400="opacity:1;top:22vw;" >
 						<h1>Pour l'argent</h1>
 					</div>
 

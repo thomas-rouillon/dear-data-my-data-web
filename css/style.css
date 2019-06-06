@@ -118,6 +118,7 @@ ul, ol { list-style: none; }
 
 /* partie 1 intro scroll */
 .image_dataperso,
+.fcku,
 #scroll > div {position: fixed;
              width: 100vw;
              height: 100vh;
