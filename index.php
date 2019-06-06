@@ -13,10 +13,14 @@
 <body class="locked">
 
 
-<nav>
+<nav id="menu">
+	<h1>Dear Data, <br> My Data</h1>
 	<button>///</button>
-	<ul>
+
+
+	<ul class="liste_liens">
 		<li><a href="#googlezalando">googlezalando</a></li>
+		<li><a href="#2partie">2partie</a></li>
 	</ul>
 </nav>
 <!--
@@ -67,7 +71,7 @@ FIN Intro // Retour à un scroll "classique"
 Première partie avec le premier texte -->
 
 <div class="titre_partie_1" data-600="opacity:0;top:15vw;" data-900="opacity:1;top:15vw;" data-1200="opacity:0;top:15vw;">
-        <h1>Grâce aux trâces que tu laisses quand tu navigues sur le web</h1>
+        <h1>Grâce aux traces que tu laisses quand tu navigues sur le web</h1>
 </div>
 
 <div class="titre_partie_1" data-1300="opacity:0;top:20vw;" data-1600="opacity:1;top:20vw;" data-1900="opacity:0;top:20vw;">
@@ -172,17 +176,17 @@ Tout au long de tes navigations -->
 
 					<div class="tes_nav_img">
 
-					<img id="img_tes_nav_1" 
-						data-5200="width:0%;bottom:0vh;left:50%" 
+					<img id="img_tes_nav_1"
+						data-5200="width:0%;bottom:0vh;left:50%"
 						data-5600="width:30%;bottom:20vh;left:20%" src="img/hacker3.svg" alt="">
-					<img id="img_tes_nav_2" 
-						data-5200="width:0%;bottom:0vh;left:50%" 
+					<img id="img_tes_nav_2"
+						data-5200="width:0%;bottom:0vh;left:50%"
 						data-5600="width:30%;bottom:20vh;left:50%" src="img/hacker1.svg" alt="">
-					<img id="img_tes_nav_3" 
-						data-5200="width:0%;left:50%;bottom:0vh" 
+					<img id="img_tes_nav_3"
+						data-5200="width:0%;left:50%;bottom:0vh"
 						data-5600="width:30%;left:80%;bottom:20vh" src="img/hacker2.svg" alt="">
-					<img id="img_tes_nav_0" 
-						data-5200="width:40vh;" 
+					<img id="img_tes_nav_0"
+						data-5200="width:40vh;"
 						data-5600="width:50vh;" src="img/google.svg" alt="">
 
 				</div>
@@ -192,7 +196,7 @@ Tout au long de tes navigations -->
 			<div id="googlezalando" data-scrollpos="6000" class="titre_partie_1" data-5900="opacity:0;top:15vw;z-index:-1" data-6000="opacity:1;top:15vw;z-index:3000" data-6800="opacity:1;top:15vw;" data-7000="opacity:0;top:15vw; z-index:-1">
 				<h1 id="tu_donnes_droit_titre">Tu nous en donnes <br> même le droit</h1>
 				<p id="text_v2">
-					Si tu achètes une paire de chaussures sur Zalando, ce site connait
+					Si tu achète une paire de chaussures sur Zalando, ce site connait
 ta pointure, ton sexe, ta carte de crédit et ton adresse. Il stocke
 toute ces informations dans des fichiers texte qu’il crée et que
 l’on nomme cookie. Lorsque tu acceptes l’utilisation des cookies
@@ -248,6 +252,37 @@ données par le biais des cookies.
 			  </p>
 			</div>
 
+
+			<div class="fcku titre_partie_1" data-9300="opacity:0;top:22vw;" data-9500="opacity:1;top:22vw;" data-9800="opacity:0;top:22vw;" >
+				<h1>Mais tout n’est pas noir et blanc</h1>
+			</div>
+
+<!--
+deuxieme partie  -->
+
+			<div class="fcku titre_partie_2" id="2partie" data-scrollpos="9800" data-9499="opacity:0;top:0%" data-9500="opacity:1;top:0%" data-9800="opacity:1;top:0%" data-11000="opacity:1;top:0%" data-11001="opacity:0;top:0%" >
+				<h1 data-9500="opacity:0;top:0%" data-9800="opacity:1;top:0%" data-11000="opacity:0;top:0%">Mais tout n’est pas noir et blanc</h1>
+			</div>
+
+			<div class="fcku titre_partie_2" data-10089="opacity:0;top:0%" data-10090="opacity:1;top:0%" data-11400="opacity:1;top:0%" data-11700="opacity:1;top:0%" data-11701="opacity:0;top:0%" >
+				<h1 data-11100="opacity:0;top:0%" data-11400="opacity:1;top:0%" data-11700="opacity:0;top:0%">Tu peux retrouver <br>la maîtrise de <br>ta vie privée</h1>
+			</div>
+
+			<div class="fcku titre_partie_2"  data-11679="opacity:0;top:0%" data-11680="opacity:1;top:0%" data-12100="opacity:1;top:0%" data-12300="opacity:1;top:0%" data-12301="opacity:0;top:0%" >
+				<h1 data-11800="opacity:0;top:0%" data-12100="opacity:1;top:0%" data-12300="opacity:0;top:0%">Avec quelques <br>	 gestes simples</h1>
+			</div>
+
+			<div id="ton_navigateur" class="fcku titre_partie_2"  data-12299="opacity:0;top:0%" data-12300="opacity:1;top:0%" data-12700="opacity:1;top:0%" data-13000="opacity:1;top:0%" data-13001="opacity:0;top:0%" >
+				<h1 data-12400="opacity:0;top:0%" data-12700="opacity:1;top:0%" data-13000="opacity:0;top:0%">Notamment avec <br>le choix
+de ton navigateur</h1>
+			</div>
+
+			<div class="fcku titre_partie_2" data-12999="opacity:0;top:0%" data-13000="opacity:1;top:0%" data-13400="opacity:1;top:0%" data-13700="opacity:1;top:0%" data-13701="opacity:0;top:0%" >
+				<p data-13100="opacity:0;top:0%" data-13400="opacity:1;top:0%" data-13700="opacity:0;top:0%" >Le navigateur Internet est le logiciel que tu utilises pour aller sur le Web. Et tu es dépendant de lui pour toutes tes
+navigations, que ce soit sur ton téléphone ou ton ordi.
+Il est donc très important de bien le choisir.
+</p>
+			</div>
 
     </div>
 

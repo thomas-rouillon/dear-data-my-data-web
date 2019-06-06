@@ -3,9 +3,9 @@
 :root {--rouge: #e02222;
        --noir: #000000;
        --blanc: #ffffff;
-       --gradient-moz: -moz-linear-gradient(45deg,  #d56638 0%, #af0b00 100%);
-       --gradient-webkit:  -webkit-linear-gradient(45deg,  #d56638 0%,#af0b00 100%); /* Chrome10-25,Safari5.1-6 */
-       --gradient-safari:linear-gradient(45deg,  #d56638 0%,#af0b00 100%);
+       --gradient-moz: -moz-linear-gradient(45deg, #db853b 0%, #af0b00 100%);
+       --gradient-webkit:  -webkit-linear-gradient(45deg, #db853b 0%,#af0b00 100%); /* Chrome10-25,Safari5.1-6 */
+       --gradient-safari:linear-gradient(45deg,  #db853b 0%,#af0b00 100%);
 
 }
 
@@ -125,7 +125,38 @@ nav {
   margin-top: 100vh
 }
 
+
+/* Menu */
+
+
+#menu {height: 100vh;
+        width: 30vw;
+        background-color: var(--noir);
+      }
+
+#menu h1 {font-family: 'VG5000';
+          color: var(--blanc);
+          font-size: 3em;
+          margin-left: 10%;
+          margin-top: 10%;
+          position: absolute;
+          }
+
+.liste_liens  {font-family: 'VG5000';
+              font-size: 1em;
+              position: absolute;
+              margin-top: 40%;
+              margin-left: 20%;
+      }
+
+.liste_liens a {color: var(--blanc);
+                text-decoration: none;
+        }
+.liste_liens a:hover {text-decoration: underline;}
+
 /* partie 1 intro scroll */
+
+
 .image_dataperso,
 .fcku,
 #scroll > div {position: fixed;
@@ -311,4 +342,30 @@ deuxieme partie // solution  */
 .titre_partie_2 {background: var(--gradient-moz);
                 background: var(--gradient-webkit);
                 background: var(--gradient-safari);
+                width: 100vw;
+                height: 100vh;
 }
+
+.titre_partie_2 h1 {font-family: 'VG5000';
+                 z-index: 20;
+                 color: var(--blanc);
+                 font-size: 5em;
+                 display: flex;
+                 justify-content: center;
+                 align-items: center;
+                 line-height: .9em;
+                 padding-left: 20vw;
+                 padding-right: 20vw;
+                 margin-top: 22vw;
+                }
+
+.titre_partie_2 p {font-family: 'VG5000';
+                 position: absolute;
+                 z-index: 20;
+                 color: var(--blanc);
+                 font-size: 1.5em;
+                 margin-left: 20vw;
+                 margin-right: 20vw;
+                 margin-top: 20vw;
+                 justify-content: center;
+                 align-items: center;}
