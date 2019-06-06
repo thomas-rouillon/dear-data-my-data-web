@@ -3,6 +3,9 @@
 :root {--rouge: #e02222;
        --noir: #000000;
        --blanc: #ffffff;
+       --gradient-moz: -moz-linear-gradient(45deg,  #d56638 0%, #af0b00 100%);
+       --gradient-webkit:  -webkit-linear-gradient(45deg,  #d56638 0%,#af0b00 100%); /* Chrome10-25,Safari5.1-6 */
+       --gradient-safari:linear-gradient(45deg,  #d56638 0%,#af0b00 100%);
 
 }
 
@@ -264,3 +267,17 @@ demande section */
 transition billet */
 
 #billet {width: 100% !important;}
+
+
+
+
+
+/*
+deuxieme partie // solution  */
+
+
+
+.titre_partie_2 {background: var(--gradient-moz);
+                background: var(--gradient-webkit);
+                background: var(--gradient-safari);
+}
