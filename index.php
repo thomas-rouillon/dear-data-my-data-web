@@ -22,7 +22,7 @@
 <nav class="navigation">
 
 	<button type="button" class="open_menu">
-		 x
+		 <img src="img/open.png" alt="">
 	</button>
 
 	<div class="menu">
@@ -324,7 +324,11 @@ Il est donc très important de bien le choisir.
 
 			$('html, body').animate({'scrollTop': pos}, 1500, 'swing')
 
-			$('.open_menu').on('click', function(){
+
+
+		})
+
+		$('.open_menu').on('click', function(){
 		$('.menu').addClass('visible');
 		$('.open_menu').addClass('not_visible');
 	})
@@ -334,7 +338,6 @@ Il est donc très important de bien le choisir.
 		$('.open_menu').removeClass('not_visible');
 	})
 
-		})
 		</script>
 </body>
 </html>

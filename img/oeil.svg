@@ -3,19 +3,20 @@
 <svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 337 200" style="enable-background:new 0 0 337 200;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#FFFFFF;stroke:#333333;stroke-width:4;stroke-miterlimit:10;}
-	.st1{fill:#E02222;stroke:#333333;stroke-width:4;stroke-miterlimit:10;}
-	.st2{fill:none;stroke:#333333;stroke-width:3;stroke-miterlimit:10;}
+	.st0{fill:#FFFFFF;stroke:#333333;stroke-width:5;stroke-miterlimit:10;}
+	.st1{fill:#E02222;stroke:#333333;stroke-width:5;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#333333;stroke-width:5;stroke-miterlimit:10;}
+	.st3{fill:#FFFFFF;stroke:#333333;stroke-width:4;stroke-miterlimit:10;}
 </style>
-<path class="st0" d="M79.5,99.5c0,0,76-69,152,0C231.5,99.5,155.5,166.5,79.5,99.5z"/>
-<circle class="st1" cx="155" cy="99" r="29.5"/>
-<line class="st2" x1="155" y1="69" x2="155" y2="128"/>
-<line class="st2" x1="125" y1="99" x2="184" y2="99"/>
-<line class="st2" x1="175" y1="78" x2="133.5" y2="119.5"/>
-<line class="st2" x1="134" y1="78" x2="176" y2="120"/>
-<line class="st2" x1="167" y1="126" x2="143" y2="72"/>
-<line class="st2" x1="166" y1="72" x2="143" y2="126"/>
-<line class="st2" x1="127" y1="89" x2="182" y2="110"/>
-<line class="st2" x1="182" y1="87" x2="128" y2="111"/>
-<circle class="st0" cx="155" cy="99" r="10"/>
+<path class="st0" d="M11.9,105.7c0,0,157.8-143.3,315.6,0C327.5,105.7,169.7,244.8,11.9,105.7z"/>
+<circle class="st1" cx="168.7" cy="104.6" r="61.2"/>
+<line class="st2" x1="168.7" y1="42.3" x2="168.7" y2="164.8"/>
+<line class="st2" x1="106.4" y1="104.6" x2="228.9" y2="104.6"/>
+<line class="st2" x1="210.2" y1="61" x2="124" y2="147.2"/>
+<line class="st2" x1="125.1" y1="61" x2="212.3" y2="148.2"/>
+<line class="st2" x1="193.6" y1="160.7" x2="143.8" y2="48.6"/>
+<line class="st2" x1="191.5" y1="48.6" x2="143.8" y2="160.7"/>
+<line class="st2" x1="110.5" y1="83.9" x2="224.7" y2="127.5"/>
+<line class="st2" x1="224.7" y1="79.7" x2="112.6" y2="129.5"/>
+<circle class="st3" cx="168.7" cy="104.6" r="20.8"/>
 </svg>

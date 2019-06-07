@@ -138,10 +138,9 @@ nav {
 
 .menu.visible {display:block;}
 
-/* button {background: transparent;
+button {background: transparent;
               border: none;
-              z-index: 3001} */
-
+              z-index: 3001}
 
 .menu h1 {font-family: 'VG5000';
           color: var(--blanc);
@@ -170,16 +169,18 @@ nav {
               margin-top: 0;
               margin-left: 0}
 
-.close_menu img {width: 50%}
-.open_menu img {width: 10%}
+.close_menu img {width: 60%;
+    }
+
+.open_menu img {width: 6%}
 
 .open_menu {position: fixed;
-            margin-left: 0vw;
-            margin-top: 0vh;}
+            margin-left: -24vw;
+            margin-top: 5vh;}
 
-.close_menu {display: none;
+.close_menu {
         position: absolute;
-        margin-left: -30%;
+        margin-left: 24vw;
         margin-top: 5%;
         ;}
 
@@ -246,7 +247,7 @@ big brother section */
   left: 50%;
   transform: translateX(-50%);
                   position: absolute;
-                  width: 80vw;}
+                  width: 45vw;}
 
 #surveille {margin-top: 15vh;}
 
@@ -263,7 +264,7 @@ tout au long de tes navigations */
 }
 
 .tes_nav_img img {}
-#tes_nav_titre  {margin-top: -20vh;
+#tes_nav_titre  {margin-top: -15vh;
                 padding-left: 5vw ;
                 padding-right: 5vw ;
                 padding-bottom: 10vh;}
@@ -301,7 +302,7 @@ tout au long de tes navigations */
 tu nous en donnes même le droit */
 
 
-#tu_donnes_droit_titre {margin-top: -20vh;
+#tu_donnes_droit_titre {margin-top: -15vh;
                         width: 60vw;
                         margin-left: 1vw;
                         padding-left: 5vw ;
@@ -320,7 +321,7 @@ demande section */
               position: absolute;
               margin-right: 20vw;
               margin-left: 55vw;
-              margin-top: -16vh;
+              margin-top: -19vh;
               background-color: var(--noir);
               overflow-y: scroll;
               overflow-x: none;
