@@ -13,15 +13,30 @@
 <body class="locked">
 
 
-<nav id="menu">
-	<h1>Dear Data, <br> My Data</h1>
-	<button>///</button>
 
 
-	<ul class="liste_liens">
-		<li><a href="#googlezalando">googlezalando</a></li>
-		<li><a href="#2partie">2partie</a></li>
-	</ul>
+
+
+
+
+<nav class="navigation">
+
+	<button type="button" class="open_menu">
+		 x
+	</button>
+
+	<div class="menu">
+
+		<h1>Dear Data, <br> My Data</h1>
+		<button  type="button" class="close_menu">
+			 <img src="img/close.png" alt="">
+		</button>
+
+		<ul class="liste_liens">
+			<li><a href="#googlezalando">googlezalando</a></li>
+			<li><a href="#2partie">2partie</a></li>
+		</ul>
+	</div>
 </nav>
 <!--
 recupérer les infos de l'utilisateur pour lui faire un affichage personnalisé
@@ -260,8 +275,8 @@ données par le biais des cookies.
 <!--
 deuxieme partie  -->
 
-			<div class="fcku titre_partie_2" id="2partie" data-scrollpos="9800" data-9499="opacity:0;top:0%" data-9500="opacity:1;top:0%" data-9800="opacity:1;top:0%" data-11000="opacity:1;top:0%" data-11001="opacity:0;top:0%" >
-				<h1 data-9500="opacity:0;top:0%" data-9800="opacity:1;top:0%" data-11000="opacity:0;top:0%">Mais tout n’est pas noir et blanc</h1>
+			<div  class="fcku titre_partie_2" id="2partie" data-scrollpos="9800" data-9499="opacity:0;top:0%" data-9500="opacity:1;top:0%" data-9800="opacity:1;top:0%" data-11000="opacity:1;top:0%" data-11001="opacity:0;top:0%" >
+				<h1 id="transition" data-9500="opacity:0;top:0%" data-9800="opacity:1;top:0%" data-11000="opacity:0;top:0%">Mais tout n’est pas noir et blanc</h1>
 			</div>
 
 			<div class="fcku titre_partie_2" data-10089="opacity:0;top:0%" data-10090="opacity:1;top:0%" data-11400="opacity:1;top:0%" data-11700="opacity:1;top:0%" data-11701="opacity:0;top:0%" >
@@ -272,7 +287,7 @@ deuxieme partie  -->
 				<h1 data-11800="opacity:0;top:0%" data-12100="opacity:1;top:0%" data-12300="opacity:0;top:0%">Avec quelques <br>	 gestes simples</h1>
 			</div>
 
-			<div id="ton_navigateur" class="fcku titre_partie_2"  data-12299="opacity:0;top:0%" data-12300="opacity:1;top:0%" data-12700="opacity:1;top:0%" data-13000="opacity:1;top:0%" data-13001="opacity:0;top:0%" >
+			<div  class="fcku titre_partie_2"  data-12299="opacity:0;top:0%" data-12300="opacity:1;top:0%" data-12700="opacity:1;top:0%" data-13000="opacity:1;top:0%" data-13001="opacity:0;top:0%" >
 				<h1 data-12400="opacity:0;top:0%" data-12700="opacity:1;top:0%" data-13000="opacity:0;top:0%">Notamment avec <br>le choix
 de ton navigateur</h1>
 			</div>
@@ -308,6 +323,17 @@ Il est donc très important de bien le choisir.
 				pos = $(target).attr('data-scrollpos');
 
 			$('html, body').animate({'scrollTop': pos}, 1500, 'swing')
+
+			$('.open_menu').on('click', function(){
+		$('.menu').addClass('visible');
+		$('.open_menu').addClass('not_visible');
+	})
+
+	$('.close_menu').on('click', function(){
+		$('.menu').removeClass('visible');
+		$('.open_menu').removeClass('not_visible');
+	})
+
 		})
 		</script>
 </body>

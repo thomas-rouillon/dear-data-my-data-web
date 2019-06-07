@@ -129,12 +129,21 @@ nav {
 /* Menu */
 
 
-#menu {height: 100vh;
+
+.menu {height: 100vh;
         width: 30vw;
+        display: none;
         background-color: var(--noir);
       }
 
-#menu h1 {font-family: 'VG5000';
+.menu.visible {display:block;}
+
+/* button {background: transparent;
+              border: none;
+              z-index: 3001} */
+
+
+.menu h1 {font-family: 'VG5000';
           color: var(--blanc);
           font-size: 3em;
           margin-left: 10%;
@@ -143,16 +152,42 @@ nav {
           }
 
 .liste_liens  {font-family: 'VG5000';
-              font-size: 1em;
               position: absolute;
-              margin-top: 40%;
-              margin-left: 20%;
+              margin-top: 50%;
+              margin-left: 30%;
       }
 
+.liste_liens li {margin-bottom: 2em;}
+
 .liste_liens a {color: var(--blanc);
+                font-size: 1.5em;
                 text-decoration: none;
         }
 .liste_liens a:hover {text-decoration: underline;}
+
+
+.button_open {width: 200px;
+              margin-top: 0;
+              margin-left: 0}
+
+.close_menu img {width: 50%}
+.open_menu img {width: 10%}
+
+.open_menu {position: fixed;
+            margin-left: 0vw;
+            margin-top: 0vh;}
+
+.close_menu {display: none;
+        position: absolute;
+        margin-left: -30%;
+        margin-top: 5%;
+        ;}
+
+.open_menu.not_visible {display: none;}
+.open_menu.visible {display: block;}
+
+.close_menu.not_visible {display: none;}
+.close_menu.visible {display: block;}
 
 /* partie 1 intro scroll */
 
@@ -170,6 +205,7 @@ nav {
                    color: var(--noir);
                    font-size: 5em;
                    display: flex;
+                   text-align: left;
                    justify-content: center;
                    align-items: center;
                    line-height: .9em;
@@ -346,11 +382,14 @@ deuxieme partie // solution  */
                 height: 100vh;
 }
 
+#transition {text-align: left !important;}
+
 .titre_partie_2 h1 {font-family: 'VG5000';
                  z-index: 20;
                  color: var(--blanc);
                  font-size: 5em;
                  display: flex;
+                 text-align: center;
                  justify-content: center;
                  align-items: center;
                  line-height: .9em;
