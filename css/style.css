@@ -36,7 +36,6 @@ nav {
   z-index: 5000;
   top: 0;
   left: 0;
-  background: red;
 }
 
 /* ------------------------------------------------ intro video */
@@ -133,7 +132,6 @@ nav {
 .menu {height: 100vh;
         width: 30vw;
         display: none;
-        background-color: var(--noir);
       }
 
 .menu.visible {display:block;}
@@ -142,13 +140,6 @@ button {background: transparent;
               border: none;
               z-index: 3001}
 
-.menu h1 {font-family: 'VG5000';
-          color: var(--blanc);
-          font-size: 3em;
-          margin-left: 10%;
-          margin-top: 10%;
-          position: absolute;
-          }
 
 .liste_liens  {font-family: 'VG5000';
               position: absolute;
@@ -169,14 +160,12 @@ button {background: transparent;
               margin-top: 0;
               margin-left: 0}
 
-.close_menu img {width: 60%;
+.close_menu img {width: 40px;
     }
 
-.open_menu img {width: 6%}
+.open_menu img {width: 40px;}
 
-.open_menu {position: fixed;
-            margin-left: -24vw;
-            margin-top: 5vh;}
+
 
 .close_menu {
         position: absolute;
@@ -189,6 +178,15 @@ button {background: transparent;
 
 .close_menu.not_visible {display: none;}
 .close_menu.visible {display: block;}
+
+.progress_bar {position: absolute;
+               width: 5px;
+               margin-top: 52.5%;
+               margin-left: 15%;
+               background-color: var(--blanc);
+               z-index: 3002;
+  }
+  .overflow {overflow-x: none;overflow-y: scroll;}
 
 /* partie 1 intro scroll */
 

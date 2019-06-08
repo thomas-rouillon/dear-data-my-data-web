@@ -14,28 +14,135 @@
 
 
 
+<!--
+menu -->
 
 
 
-
-
-<nav class="navigation">
+<nav class="navigation"  >
 
 	<button type="button" class="open_menu">
-		 <img src="img/open.png" alt="">
+		 <img data-0="display:block;position: fixed;
+		             margin-left: 3vw;
+		             margin-top:3vh;"
+			  data-9499="display:block;position: fixed;
+			             margin-left: 3vw;
+			             margin-top:3vh;"
+			  data-9500="display:none;position: fixed;
+			             margin-left: 3vw;
+			             margin-top:3vh;"
+			  data-end="display:none;position: fixed;
+			             margin-left: 3vw;
+			             margin-top:3vh;"
+			  src="img/open.png" alt="">
+
+		 <img data-0="display:none;position: fixed;
+		             margin-left: 3vw;
+		             margin-top:3vh;"
+			  data-9499="display:none;position: fixed;
+			             margin-left: 3vw;
+			             margin-top:3vh;"
+			  data-9500="display:block;position: fixed;
+			             margin-left: 3vw;
+			             margin-top:3vh;"
+			  data-end="display:block;position: fixed;
+			             margin-left: 3vw;
+			             margin-top:3vh;"
+			  src="img/open2.png" alt="">
+		 <!-- <svg viewBox="0 0 200 200" style="enable-background:new 0 0 200 200;"  >
+		 	<g>
+				<rect fill="#ff0000" data-0="fill:#000000" data-3000="fill:#ffffff" x="O" y="0" width="156" height="64">
+			</g>
+		 </svg> -->
 	</button>
 
-	<div class="menu">
+	<div class="menu" data-0="background-color:var(--noir);" data-9499="background-color:var(--blanc);" data-9500="background-color:var(--blanc);" data-end="background-color:var(--blanc);" >
 
-		<h1>Dear Data, <br> My Data</h1>
+		<h1 data-0="font-family: 'VG5000';
+		          color: var(--blanc);
+		          font-size: 3em;
+		          margin-left: 10%;
+		          margin-top: 10%;
+		          position: absolute;"
+		data-9499="bfont-family: 'VG5000';
+		          color: var(--blanc);
+		          font-size: 3em;
+		          margin-left: 10%;
+		          margin-top: 10%;
+		          position: absolute;"
+		data-9500="font-family: 'VG5000';
+		          color: var(--rouge);
+		          font-size: 3em;
+		          margin-left: 10%;
+		          margin-top: 10%;
+		          position: absolute;"
+		data-end="font-family: 'VG5000';
+		          color: var(--rouge);
+		          font-size: 3em;
+		          margin-left: 10%;
+		          margin-top: 10%;
+		          position: absolute;" >
+
+							Dear Data, <br> My Data
+		</h1>
+
 		<button  type="button" class="close_menu">
-			 <img src="img/close.png" alt="">
+			<img data-0="display:block;position: absolute;
+								margin-top: 5%;"
+				 data-9499="display:block;position: absolute;
+
+         					 margin-top: 5%;"
+				 data-9500="display:none;position: absolute;
+
+         					 margin-top: 5%;"
+				 data-end="display:none;position: absolute;
+         					 margin-top: 5%;"
+				 src="img/close.png" alt="">
+
+			<img data-0="display:none;position: absolute;
+
+								margin-top: 5%;"
+				 data-9499="display:none;position: absolute;
+
+         					 margin-top: 5%;"
+				 data-9500="display:block;position: absolute;
+         					 margin-top: 5%;"
+				 data-end="display:block;position: absolute;
+         					 margin-top: 5%;"
+				 src="img/close2.png" alt="">
 		</button>
 
+		<div class="overflow">
+
+
+		<div class="progress_bar" data-0="height:calc(0%/3);background-color:var(--blanc);" 	data-9499="height:calc(33%/3);background-color:var(--blanc);" data-9500="height:calc(33%/3);background-color:var(--rouge);" data-end="height:calc(100%/3);background-color:var(--rouge);">
+
+		</div>
+
 		<ul class="liste_liens">
-			<li><a href="#googlezalando">googlezalando</a></li>
-			<li><a href="#2partie">2partie</a></li>
+
+			<li><a data-0="font-family: 'VG5000'
+										color: var(--blanc);"
+			data-9499="font-family: 'VG5000';
+										color: var(--blanc);"
+			data-9500="font-family: 'VG5000';
+										color: var(--rouge);"
+			data-end="font-family: 'VG5000';
+										color: var(--rouge);"
+		  href="#googlezalando">googlezalando</a></li>
+			<li><a data-0="font-family: 'VG5000'
+										color: var(--blanc);"
+			data-9499="font-family: 'VG5000';
+										color: var(--blanc);"
+			data-9500="font-family: 'VG5000';
+										color: var(--rouge);"
+			data-end="font-family: 'VG5000';
+										color: var(--rouge);"
+			href="#2partie">2partie</a></li>
+
 		</ul>
+	</div>
+
 	</div>
 </nav>
 <!--
