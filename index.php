@@ -115,7 +115,7 @@ menu -->
 		<div class="overflow">
 
 
-		<div class="progress_bar" data-0="height:calc(0%/3);background-color:var(--blanc);" 	data-9499="height:calc(33%/3);background-color:var(--blanc);" data-9500="height:calc(33%/3);background-color:var(--rouge);" data-end="height:calc(100%/3);background-color:var(--rouge);">
+		<div class="progress_bar" data-0="height:calc(0%/3);background-color:var(--blanc);" 	data-9499="height:calc(33%/3);background-color:var(--blanc);" data-9500="height:calc(33%/4);background-color:var(--rouge);" data-end="height:calc(100%/4);background-color:var(--rouge);">
 
 		</div>
 
@@ -129,7 +129,7 @@ menu -->
 										color: var(--rouge);"
 			data-end="font-family: 'VG5000';
 										color: var(--rouge);"
-		  href="#googlezalando">googlezalando</a></li>
+		  href="#grace_au_traces">Grâce aux traces ...</a></li>
 			<li><a data-0="font-family: 'VG5000'
 										color: var(--blanc);"
 			data-9499="font-family: 'VG5000';
@@ -138,7 +138,25 @@ menu -->
 										color: var(--rouge);"
 			data-end="font-family: 'VG5000';
 										color: var(--rouge);"
-			href="#2partie">2partie</a></li>
+			href="#tu_donnes_le_droit">Tu donnes le droit ...</a></li>
+			<li><a data-0="font-family: 'VG5000'
+										color: var(--blanc);"
+			data-9499="font-family: 'VG5000';
+										color: var(--blanc);"
+			data-9500="font-family: 'VG5000';
+										color: var(--rouge);"
+			data-end="font-family: 'VG5000';
+										color: var(--rouge);"
+			href="#retrouve_la_maitrise">Retrouve la maîtrise ...</a></li>
+			<li><a data-0="font-family: 'VG5000'
+										color: var(--blanc);"
+			data-9499="font-family: 'VG5000';
+										color: var(--blanc);"
+			data-9500="font-family: 'VG5000';
+										color: var(--rouge);"
+			data-end="font-family: 'VG5000';
+										color: var(--rouge);"
+			href="#choix_du_nav">Le choix du navigateur ...</a></li>
 
 		</ul>
 	</div>
@@ -192,7 +210,7 @@ FIN Intro // Retour à un scroll "classique"
 <!--
 Première partie avec le premier texte -->
 
-<div class="titre_partie_1" data-600="opacity:0;top:15vw;" data-900="opacity:1;top:15vw;" data-1200="opacity:0;top:15vw;">
+<div id="grace_au_traces" data-scrollpos="600" class="titre_partie_1" data-600="opacity:0;top:15vw;" data-900="opacity:1;top:15vw;" data-1200="opacity:0;top:15vw;">
         <h1>Grâce aux traces que tu laisses quand tu navigues sur le web</h1>
 </div>
 
@@ -315,7 +333,7 @@ Tout au long de tes navigations -->
 			</div>
 
 
-			<div id="googlezalando" data-scrollpos="6000" class="titre_partie_1" data-5900="opacity:0;top:15vw;z-index:-1" data-6000="opacity:1;top:15vw;z-index:3000" data-6800="opacity:1;top:15vw;" data-7000="opacity:0;top:15vw; z-index:-1">
+			<div id="tu_donnes_le_droit" data-scrollpos="6000" class="titre_partie_1" data-5900="opacity:0;top:15vw;z-index:-1" data-6000="opacity:1;top:15vw;z-index:3000" data-6800="opacity:1;top:15vw;" data-7000="opacity:0;top:15vw; z-index:-1">
 				<h1 id="tu_donnes_droit_titre">Tu nous en donnes <br> même le droit</h1>
 				<p id="text_v2">
 					Si tu achète une paire de chaussures sur Zalando, ce site connait
@@ -382,11 +400,11 @@ données par le biais des cookies.
 <!--
 deuxieme partie  -->
 
-			<div  class="fcku titre_partie_2" id="2partie" data-scrollpos="9800" data-9499="opacity:0;top:0%" data-9500="opacity:1;top:0%" data-9800="opacity:1;top:0%" data-11000="opacity:1;top:0%" data-11001="opacity:0;top:0%" >
+			<div  class="fcku titre_partie_2" data-9499="opacity:0;top:0%" data-9500="opacity:1;top:0%" data-9800="opacity:1;top:0%" data-11000="opacity:1;top:0%" data-11001="opacity:0;top:0%" >
 				<h1 id="transition" data-9500="opacity:0;top:0%" data-9800="opacity:1;top:0%" data-11000="opacity:0;top:0%">Mais tout n’est pas noir et blanc</h1>
 			</div>
 
-			<div class="fcku titre_partie_2" data-10089="opacity:0;top:0%" data-10090="opacity:1;top:0%" data-11400="opacity:1;top:0%" data-11700="opacity:1;top:0%" data-11701="opacity:0;top:0%" >
+			<div class="fcku titre_partie_2" id="retrouve_la_maitrise" data-scrollpos="11400" data-10089="opacity:0;top:0%" data-10090="opacity:1;top:0%" data-11400="opacity:1;top:0%" data-11700="opacity:1;top:0%" data-11701="opacity:0;top:0%" >
 				<h1 data-11100="opacity:0;top:0%" data-11400="opacity:1;top:0%" data-11700="opacity:0;top:0%">Tu peux retrouver <br>la maîtrise de <br>ta vie privée</h1>
 			</div>
 
@@ -405,6 +423,25 @@ navigations, que ce soit sur ton téléphone ou ton ordi.
 Il est donc très important de bien le choisir.
 </p>
 			</div>
+
+			<div id="choix_du_nav" data-scrollpos="14000" class="fcku titre_partie_2"  data-13699="opacity:0;top:0%" data-13700="opacity:1;top:0%" data-14000="opacity:1;top:0%" data-14300="opacity:1;top:0%" data-14301="opacity:0;top:0%" >
+				<img id="focus_chrome" data-13700="opacity:0;top:0%" data-14000="opacity:1;top:0%" data-14300="opacity:0;top:0%" src="img/chrome.svg" alt="">
+				<h1 id="focus_titre" data-13700="opacity:0;top:0%" data-14000="opacity:1;top:0%" data-14300="opacity:0;top:0%">Google Chrome</h1>
+				<p id="focus_p" data-13700="opacity:0;top:0%" data-14000="opacity:1;top:0%" data-14300="opacity:0;top:0%" >Chrome est développé par Google, c’est le navigateur Internet le plus utilisé au monde et il est très performant.
+Mais tu dois savoir que le respect de la vie privée n’est pas la priorité d’une société comme Google, dont le business repose sur tes données.
+			</div>
+
+			<div  class="fcku titre_partie_2"  data-14299="opacity:0;top:0%" data-14300="opacity:1;top:0%" data-14600="opacity:1;top:0%" data-14900="opacity:1;top:0%" data-14901="opacity:0;top:0%" >
+				<h1 data-14300="opacity:0;top:0%" data-14600="opacity:1;top:0%" data-14900="opacity:0;top:0%">Je t’invite grandement à un
+					en essayer un autre</h1>
+			</div>
+
+			<div  class="fcku titre_partie_2"  data-14899="opacity:0;top:0%" data-14900="opacity:1;top:0%" data-15200="opacity:1;top:0%" data-15500="opacity:1;top:0%" data-15501="opacity:0;top:0%" >
+				<img id="focus_brave" data-14900="opacity:0;top:0%" data-15200="opacity:1;top:0%" data-15500="opacity:0;top:0%" src="img/brave.svg" alt="">
+				<h1 id="focus_titre_brave" data-14900="opacity:0;top:0%" data-15200="opacity:1;top:0%" data-15500="opacity:0;top:0%">Brave</h1>
+				<p id="focus_p_brave" data-14900="opacity:0;top:0%" data-15200="opacity:1;top:0%" data-15500="opacity:0;top:0%" >
+					Brave est un navigateur développé par une équipe de spécialistes de la vie privée. Le petit Lion est très performant, il affiche tes sites web plus rapidement que les autres. Pourquoi ? Il supprime beaucoup de contenu sur les pages que tu visites essentiellement du contenu publicitaire. Mais si tu veux jouer à Forge Of Empire par contre ou un autre jeu du même genre ça risque d’être plus compliqué.
+				</div>
 
     </div>
 

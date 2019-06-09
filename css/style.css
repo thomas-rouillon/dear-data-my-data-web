@@ -3,6 +3,7 @@
 :root {--rouge: #e02222;
        --noir: #000000;
        --blanc: #ffffff;
+       --orange: #fb7f00;
        --gradient-moz: -moz-linear-gradient(45deg, #db853b 0%, #af0b00 100%);
        --gradient-webkit:  -webkit-linear-gradient(45deg, #db853b 0%,#af0b00 100%); /* Chrome10-25,Safari5.1-6 */
        --gradient-safari:linear-gradient(45deg,  #db853b 0%,#af0b00 100%);
@@ -407,3 +408,45 @@ deuxieme partie // solution  */
                  margin-top: 20vw;
                  justify-content: center;
                  align-items: center;}
+
+/*
+Focus */
+
+#focus_titre {font-size: 5em;
+          text-align: left !important;
+          justify-content: left;
+           color: var(--orange);
+           margin-left: 14vw;
+           margin-top: 30vh;
+}
+
+#focus_p {font-size: 1.5em;
+           color: var(--blanc);
+           margin-left: 35vw;
+           margin-top: 45vh;
+}
+
+#focus_chrome {margin-top: 25vh;
+            width: 25vw;
+            margin-left: 3vw;
+            position: absolute;
+            }
+
+#focus_brave {margin-top: 30vh;
+            width: 15vw;
+            margin-left: 8vw;
+            position: absolute;
+            }
+
+#focus_titre_brave {font-size: 5em;
+          text-align: left !important;
+          justify-content: left;
+           color: var(--orange);
+           margin-left: 14vw;
+           margin-top: 25vh;
+}
+#focus_p_brave {font-size: 1.5em;
+           color: var(--blanc);
+           margin-left: 35vw;
+           margin-top: 40vh;
+}
