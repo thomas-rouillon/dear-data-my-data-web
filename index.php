@@ -210,7 +210,7 @@ FIN Intro // Retour à un scroll "classique"
 <!--
 Première partie avec le premier texte -->
 
-<div id="grace_au_traces" data-scrollpos="600" class="titre_partie_1" data-600="opacity:0;top:15vw;" data-900="opacity:1;top:15vw;" data-1200="opacity:0;top:15vw;">
+<div id="grace_au_traces" data-scrollpos="600" class="titre_partie_1" data-600="opacity:0;top:20vw;" data-900="opacity:1;top:20vw;" data-1200="opacity:0;top:20vw;">
         <h1>Grâce aux traces que tu laisses quand tu navigues sur le web</h1>
 </div>
 
@@ -405,7 +405,7 @@ deuxieme partie  -->
 			</div>
 
 			<div class="fcku titre_partie_2" id="retrouve_la_maitrise" data-scrollpos="11400" data-10089="opacity:0;top:0%" data-10090="opacity:1;top:0%" data-11400="opacity:1;top:0%" data-11700="opacity:1;top:0%" data-11701="opacity:0;top:0%" >
-				<h1 data-11100="opacity:0;top:0%" data-11400="opacity:1;top:0%" data-11700="opacity:0;top:0%">Tu peux retrouver <br>la maîtrise de <br>ta vie privée</h1>
+				<h1 data-11100="opacity:0;margin-top:20vw;" data-11400="opacity:1;margin-top:20vw;" data-11700="opacity:0;margin-top:20vw;">Tu peux retrouver <br>la maîtrise de <br>ta vie privée</h1>
 			</div>
 
 			<div class="fcku titre_partie_2"  data-11679="opacity:0;top:0%" data-11680="opacity:1;top:0%" data-12100="opacity:1;top:0%" data-12300="opacity:1;top:0%" data-12301="opacity:0;top:0%" >
@@ -413,12 +413,12 @@ deuxieme partie  -->
 			</div>
 
 			<div  class="fcku titre_partie_2"  data-12299="opacity:0;top:0%" data-12300="opacity:1;top:0%" data-12700="opacity:1;top:0%" data-13000="opacity:1;top:0%" data-13001="opacity:0;top:0%" >
-				<h1 data-12400="opacity:0;top:0%" data-12700="opacity:1;top:0%" data-13000="opacity:0;top:0%">Notamment avec <br>le choix
+				<h1 data-12400="opacity:0;margin-top:20vw;" data-12700="opacity:1;margin-top:20vw;" data-13000="opacity:0;margin-top:20vw;">Notamment avec <br>le choix
 de ton navigateur</h1>
 			</div>
 
 			<div class="fcku titre_partie_2" data-12999="opacity:0;top:0%" data-13000="opacity:1;top:0%" data-13400="opacity:1;top:0%" data-13700="opacity:1;top:0%" data-13701="opacity:0;top:0%" >
-				<p data-13100="opacity:0;top:0%" data-13400="opacity:1;top:0%" data-13700="opacity:0;top:0%" >Le navigateur Internet est le logiciel que tu utilises pour aller sur le Web. Et tu es dépendant de lui pour toutes tes
+				<p data-13100="opacity:0;top:9vh" data-13400="opacity:1;top:9vh" data-13700="opacity:0;top:9vh" >Le navigateur Internet est le logiciel que tu utilises pour aller sur le Web. Et tu es dépendant de lui pour toutes tes
 navigations, que ce soit sur ton téléphone ou ton ordi.
 Il est donc très important de bien le choisir.
 </p>
@@ -438,7 +438,7 @@ Mais tu dois savoir que le respect de la vie privée n’est pas la priorité d�
 
 			<div  class="fcku titre_partie_2"  data-14899="opacity:0;top:0%" data-14900="opacity:1;top:0%" data-15200="opacity:1;top:0%" data-15500="opacity:1;top:0%" data-15501="opacity:0;top:0%" >
 				<img id="focus_brave" data-14900="opacity:0;top:0%" data-15200="opacity:1;top:0%" data-15500="opacity:0;top:0%" src="img/brave.svg" alt="">
-				<h1 id="focus_titre_brave" data-14900="opacity:0;top:0%" data-15200="opacity:1;top:0%" data-15500="opacity:0;top:0%">Brave</h1>
+				<h1 id="focus_titre_brave" data-14900="opacity:0;top:0%" data-15200="opacity:1;top:0%" data-15500="opacity:0;top:0%"9vhrave</h1>
 				<p id="focus_p_brave" data-14900="opacity:0;top:0%" data-15200="opacity:1;top:0%" data-15500="opacity:0;top:0%" >
 					Brave est un navigateur développé par une équipe de spécialistes de la vie privée. Le petit Lion est très performant, il affiche tes sites web plus rapidement que les autres. Pourquoi ? Il supprime beaucoup de contenu sur les pages que tu visites essentiellement du contenu publicitaire. Mais si tu veux jouer à Forge Of Empire par contre ou un autre jeu du même genre ça risque d’être plus compliqué.
 				</div>
